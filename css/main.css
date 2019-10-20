@@ -598,8 +598,8 @@ ol.commentlist {
   }
 
   .profile img {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
   form {
@@ -620,9 +620,21 @@ ol.commentlist {
     padding-right: 10px;
   }
   
-  .blog-title p, .blog-post p, .card p {
-    font-size: 12px;
+  .blog-title p, .blog-post p, .card p, .profile-info p {
+    font-size: 13px;
     padding: 0px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .card h2, .profile h2 {
+    font-size: 1.2rem;
+  }
+
+  .profile h3 {
+    font-size: 1rem;
   }
 
   .definition p {
@@ -666,8 +678,16 @@ ol.commentlist {
     font-size: 1rem;
   }
 
+  .card h2, .profile h2 {
+    font-size: .8rem;
+  }
+
+  .profile h3 {
+    font-size: .7rem;
+  }
+
   .title-img-1, .title-img-2 {
-    height: 12vh;
+    height: 13vh;
   }
   
   nav a {
