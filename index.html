@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programming Languages Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header id="home">
+      <div class="nav" id="top-nav">
+        <nav class="cl-effect-8">
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+          </nav>
+      </div>
+
+      <div class="header">
+          <h1><i>let's explore...</i></h1>
+      </div>
+      <div class="definition">
+        <p>A Programming Language is a vocabulary and set of grammatical rules for instructing
+          a computer or computing device to perform specific tasks.</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="row">
+        <div class="leftcolumn" id="blog">
+          <div class="card">
+            <h2>JAVA PROGRAMMING LANGUAGE</h2>
+            <h5>This page was last edited on 19 October 2019, at 04:38 (UTC).</h5>
+            <div class="title-img-1"></div>
+            <p>Java is a general-purpose programming language that is class-based, object-oriented (although not a pure object-oriented language, as it contains primitive types), and designed to have as few implementation dependencies as possible. 
+                It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. 
+                Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++,...
+              <a href="blog-posts/java.html"><i>read more</i></a></p>
+          </div>
+          <div class="card">
+            <h2>PYTHON PROGRAMMING LANGUAGE</h2>
+            <h5>This page was last edited on 18 October 2019, at 08:05 (UTC).</h5>
+            <div class="title-img-2"></div>
+            <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and
+                object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects...<a href="blog-posts/python.html"><i>read more</i></a></p>
+          </div>
+          <div class="card-about" id="about"> 
+              <table>
+                <tr>
+                  <td class="profile">
+                    <h2>About Me</h2>
+                    <img alt="profile-picture" src="img/me.jpg" onerror="this.src='img/ima.png'">
+                    <h3>Joelson Tatenda Mvundura</h3>
+                    <h3><i>Information Technology Student</i></h3>
+                  </td>
+                  <td class="profile-info">
+                      <p>I am passionate about interactive media, and in an age of digital world, I believe bringing design to life with code is essential.
+                        So, I specialise in a multi-disciplined approach to my work incorporating design and development.
+                        I am currently studying Bachelor of Science in Information Technology at the Adventist University of the Philippines, Philippines.</P>
+                  </td>
+                </tr>
+              </table>
+            </div>
+        </div>
+        
+          <div>
+            <form id="contact">
+              <h1>SEND ME A MESSAGE</h1>
+              <div class="question">
+                <input id="mailSubject" type="text" required/>
+                <label>Subject</label>
+              </div>
+              <div class="message">
+                <textarea id="mailMessage" type="text" required></textarea>
+                <label>Message</label>
+              </div>
+              <div class="form-submit">
+                  <a onmouseover="appendMailTo()" id="sendmail" href="mailto:joelsonmvundura@gmail.com" class="btn btn-submit btn-3e">Submit</a>
+              </div>
+            </form>
+
+          </div>
+      </div>
+            <!--Back to top button-->
+            <button onclick="topFunction()" id="myBtn" title="Go To Top" class="btn btn-submit btn-3e">Back To Top</button>
+    </main>
+
+    <footer id="contact">
+        <div class="footer">
+            Copyright &copy; <span id="getYear"></span>
+          </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
