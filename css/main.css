@@ -621,12 +621,12 @@ ol.commentlist {
   }
   
   .blog-title p, .blog-post p, .card p, .profile-info p {
-    font-size: 13px;
+    font-size: .8rem;
     padding: 0px;
   }
 
   .footer {
-    font-size: 12px;
+    font-size: .7rem;
   }
 
   .card h2, .profile h2 {
@@ -663,6 +663,13 @@ ol.commentlist {
 
   .title-img-1, .title-img-2 {
     height: 43vh;
+  }
+
+  #myBtn {
+    bottom: 12px;
+    right: 8px;
+    padding: 5px;
+    font-size: .6rem;
   }
 }
 
