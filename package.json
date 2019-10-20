@@ -1,0 +1,23 @@
+{
+  "name": "blog-page",
+  "version": "1.0.0",
+  "description": "programming languages blog page",
+  "main": "index.js",
+  "homepage": "https://github.io/Tatenda07/blog-page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatenda07/blog-page.git"
+  },
+  "author": "Joelson T. Mvundura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatenda07/blog-page/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
